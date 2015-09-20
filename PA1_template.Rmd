@@ -2,7 +2,9 @@
 title: "Fitbit Study"
 author: "Randal J Jacoby"
 date: "September 16, 2015"
-output: html_document
+output:
+  html_document:
+    self_contained: no
 ---
 
 This study analyzes data from a Fitbit user over the course of two months, to determine average steps per day, what time of day the user was most active, and whether weekends were busier than weekdays.
@@ -215,4 +217,3 @@ p
 ```
 
 It looks as though the subject was active early on weekdays, with less activity during the day, suggesting a commute to work or school, at least partially on foot, in a tight time schedule. The return home either involved less walking, or the departure time was more variable. By comparison, the weekend activity was more evenly spread over the day, and later into the night.
-```
